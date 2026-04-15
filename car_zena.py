@@ -92,7 +92,7 @@ elif menu == "📲 Book Service":
 
     service = st.selectbox("Choose a service", data["Service"])
 
-    message = f"Hello 👋, I want to book {service} from Carzena Auto Workshop."
+    message = f"Hello 👋, I want to book {service} from DickSound Auto Workshop."
 
     whatsapp_url = f"https://wa.me/{phone_number}?text={message}"
 
